@@ -10,4 +10,4 @@ class Image(StatesGroup):
     wait = State()
 
 class Newsletter(StatesGroup):
-    messageGit: Sign Out. = State()
+    message = State()
