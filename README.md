@@ -1,8 +1,8 @@
 # Project-AI
 
-Проект представляет собой Telegram-бота, разработанного с использованием фреймворка aiogram 3.x. Бот имеет модульную структуру с разделением на пользовательский и административный интерфейсы.
+A Telegram bot project developed using the aiogram 3.x framework. The bot features a modular structure with separate user and admin interfaces.
 
-## Технологии
+## Technologies
 
 - Python 3.x
 - aiogram 3.17.0
@@ -10,68 +10,68 @@
 - OpenAI API
 - Docker
 
-## Установка и запуск
+## Installation and Setup
 
-### Локальный запуск
+### Local Setup
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/Project-AI.git
 cd Project-AI
 ```
 
-2. Создайте виртуальное окружение и активируйте его:
+2. Create and activate a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # для Linux/MacOS
-# или
-venv\Scripts\activate  # для Windows
+source venv/bin/activate  # for Linux/MacOS
+# or
+venv\Scripts\activate  # for Windows
 ```
 
-3. Установите зависимости:
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Создайте файл `config.py` и добавьте в него токен вашего бота:
+4. Create a `config.py` file and add your bot token:
 ```python
-TOKEN = "ваш_токен_бота"
+TOKEN = "your_bot_token"
 ```
 
-5. Запустите бота:
+5. Run the bot:
 ```bash
 python run.py
 ```
 
-### Запуск через Docker
+### Docker Setup
 
-1. Соберите Docker-образ:
+1. Build the Docker image:
 ```bash
 docker build -t project-ai .
 ```
 
-2. Запустите контейнер:
+2. Run the container:
 ```bash
 docker run -d --name project-ai project-ai
 ```
 
-## Структура проекта
+## Project Structure
 
 ```
 Project-AI/
 ├── app/
-│   ├── admin/         # Административные команды
-│   ├── user/          # Пользовательские команды
-│   └── database/      # Модели базы данных
+│   ├── admin/         # Admin commands
+│   ├── user/          # User commands
+│   └── database/      # Database models
 ├── dockerfile
 ├── requirements.txt
 └── run.py
 ```
 
-## Лицензия
+## License
 
 MIT
 
-## Автор
+## Author
 
-Ваше имя 
+Your Name 
