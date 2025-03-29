@@ -74,4 +74,4 @@ MIT
 
 ## Author
 
-Your Name 
+[dEagleProg](https://github.com/dEagleProg)
