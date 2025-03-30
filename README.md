@@ -72,6 +72,6 @@ Project-AI/
 
 MIT
 
-## Author
+## 👤 Author
 
 [dEagleProg](https://github.com/dEagleProg)
